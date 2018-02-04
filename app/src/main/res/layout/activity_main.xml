@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.amaliaintansafura_1202150248_modul1.MainActivity">
+
+    <TextView
+        android:id="@+id/makanmalam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="75dp"
+        android:text="@string/judul1"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/milea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="115dp"
+        android:text="@string/judul2"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:ems="15"
+        android:hint="Menu Makanan"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/porsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:ems="15"
+        android:hint="Porsi"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/porsi"
+        android:layout_alignStart="@+id/porsi"
+        android:layout_below="@+id/porsi"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="25dp"
+        android:onClick="pilihEatbus"
+        android:text="@string/eatbus" />
+
+    <Button
+        android:id="@+id/button_main2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/porsi"
+        android:layout_alignStart="@+id/porsi"
+        android:layout_below="@+id/porsi"
+        android:layout_marginRight="30dp"
+        android:layout_marginStart="195dp"
+        android:layout_marginTop="25dp"
+        android:onClick="pilihAbnormal"
+        android:text="@string/abnormal" />
+
+</RelativeLayout>
